@@ -1,5 +1,5 @@
 import { defineConfig } from 'astro/config';
 export default defineConfig({
-  site: 'https://sonart-tech.netlify.app',
+  site: 'https://sonarttech.netlify.app',
   output: 'static',
 });
