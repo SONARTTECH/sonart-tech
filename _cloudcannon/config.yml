@@ -1,0 +1,8 @@
+collections_config:
+  accueil:
+    path: content/accueil.json
+    output: false
+    fields:
+      slogan:
+        label: Texte d'accroche
+        type: text
