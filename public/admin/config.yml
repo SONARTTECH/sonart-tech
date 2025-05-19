@@ -1,6 +1,10 @@
 backend:
-  name: file-system
-  api_root: http://localhost:3000/api
+  name: github
+  repo: SONARTTECH/sonart-tech
+  branch: main
+  auth_scope: repo
+  base_url: https://sonarttech.netlify.app
+  auth_endpoint: /api/auth
 
 media_folder: "public/images/uploads"
 public_folder: "/images/uploads"
