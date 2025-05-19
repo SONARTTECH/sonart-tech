@@ -1,0 +1,29 @@
+---
+import accueil from '../../content/accueil.json';
+---
+
+<section class="hero">
+  <img src="/LogoFull.png" alt="Logo Son'Art-Tech" class="logo" />
+  <h1 class="tagline">{accueil.slogan}</h1>
+</section>
+
+<style>
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 4rem 1rem;
+  background: #ffffff;
+}
+.logo {
+  max-width: 300px;
+  margin-bottom: 2rem;
+}
+.tagline {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #3C3C3B;
+}
+</style>
